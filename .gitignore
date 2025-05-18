@@ -1,0 +1,35 @@
+.git
+bq_airflow_project1.json
+
+# Python
+__pycache__/
+*.pyc
+
+# Airflow
+logs/
+dags/__pycache__/
+include/__pycache__/
+include/configs/*
+astro
+.venv
+airflow-webserver.pid
+webserver_config.py
+airflow.cfg
+airflow.db
+airflow_settings.yaml
+__pycache__/
+
+# Astro CLI
+.astro/
+.env
+.packages.txt
+.requirements.txt 
+.astro/
+.tests/*
+
+# Large source files
+source_data/*.csv
+source_data_parquet_files/*.parquet
+
+# Local Python environment
+env/
